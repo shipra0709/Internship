@@ -23,9 +23,7 @@
 }
 
 .navbar-btn {
-  background: linear-gradient(180deg,
-      rgba(169, 201, 249, 0) 0%,
-      rgba(7, 88, 210, 1) 78.35648655891418%);
+  background:  #012255;
   border-radius: 50px;
   width: 280px;
   height: 85px;
@@ -49,19 +47,21 @@
   background: linear-gradient(90deg, rgba(128, 195, 249, 1) 0%, rgba(128, 195, 249, 1) 35%, rgba(207, 234, 255, 1) 100%);
   width: 1430px;
   height: 500px;
-  position: relative;
-  margin-left: 45px;
+  /* position: relative; */
+  margin-left: 32px;
+  margin-top: 0px;
 }
 
 .template-paragraph {
-  color: #222222;
-  text-align: left;
-  font: 600 19px "Roboto-Medium", sans-serif;
-  position: relative;
+  color: #072886;
+  position: absolute;
   width: 482px;
   margin-left: 100px;
   margin-top: 145px;
+ font-weight: 600!important;
+ text-align: justify !important;
 }
+
 
 .navbar-btn1 {
   background: #012255;
@@ -70,7 +70,7 @@
   height: 70px;
   position: relative;
   margin-left: 96px;
-  margin-top: 45px;
+  margin-top: 351px;
 }
 
 .know-more {
@@ -82,13 +82,14 @@
   margin-top: 7px;
 }
 
-.template-image {
+/* .template-image {
   width: 550px;
   height: 350px;
   position: relative;
   margin-left: 810px;
-  margin-top: -72px;
-}
+  margin-top: -570px;
+} */
+
 .line-2 {
   border-style: solid;
   border-color: #000000;
@@ -98,17 +99,18 @@
   position: relative;
   transform-origin: 0 0;
   transform: rotate(90deg) scale(1, 1);
-  margin-top: -370px;
+  margin-top: -357px;
   margin-left: 700px;
 }
+
 .rectangle-2 {
   background: linear-gradient(90deg, rgba(105, 163, 239, 1) 0%, rgba(146, 191, 251, 1) 28%, rgba(92, 225, 230, 1) 100%);
   border-radius: 20px;
-  width: 1168px;
-  height: 1090px;
+  height: 1350px; 
   position: absolute;
   margin-left: 165px;
   margin-top: 80px;
+  width: 1168px;
 }
 .internship-terms-conditions {
   color: #011339;
@@ -144,423 +146,433 @@
 .duration {
   color: #000000;
   text-align: left;
-  font: 700 20px "Rubik-Medium", sans-serif;
+  font: 700 22px "Rubik-Medium", sans-serif;
   position: relative;
   width: 249.61px;
   height: 61px;
   margin-top: 105px;
   margin-left: 80px;
+  text-decoration: underline;
 }
 
 .duration-paragraph {
-  color: #202020;
+  color:  #072886;
   text-align: left;
-  font: 400 17px "Rubik-Regular", sans-serif;
+  font: 500 17px "Rubik-Regular", sans-serif;
   position: relative;
-  width: 911.9px;
+  width: 984.9px;
   height: 75.1px;
-  margin-top: -66px;
-  margin-left: 211px;
+  margin-top: -33px;
+  margin-left: 81px;
 }
 
 .work-hours {
   color: #000000;
   text-align: left;
-  font: 700 20px "Rubik-Medium", sans-serif;
+  font: 700 22px "Rubik-Medium", sans-serif;
   position: relative;
   width: 249.61px;
   height: 61px;
   margin-top: -12px;
   margin-left: 80px;
+  text-decoration: underline;
 }
 
 .work-hour-paragraph {
-  color: #202020;
+  color:  #072886;
   text-align: left;
-  font: 400 17px "Rubik-Regular", sans-serif;
+  font: 500 17px "Rubik-Regular", sans-serif;
   position: relative;
-  width: 889.9px;
+  width: 982.9px;
   height: 75.1px;
-  margin-top: -66px;
-  margin-left: 240px;
+  margin-top: -33px;
+  margin-left: 81px;
 }
 
 .location {
   color: #000000;
   text-align: left;
-  font: 700 20px "Rubik-Medium", sans-serif;
+  font: 700 22px "Rubik-Medium", sans-serif;
   position: relative;
   width: 249.61px;
   height: 61px;
   margin-top: -25px;
   margin-left: 80px;
+  text-decoration: underline;
 }
 
 .location-paragraph {
-  color: #202020;
+  color:  #072886;
   text-align: left;
-  font: 400 17px "Rubik-Regular", sans-serif;
+  font: 500 17px "Rubik-Regular", sans-serif;
   position: relative;
-  width: 904.9px;
+  width: 973.9px;
   height: 75.1px;
-  margin-top: -66px;
-  margin-left: 211px;
+  margin-top: -33px;
+  margin-left:79px;
 }
 
 .compensation {
   color: #000000;
   text-align: left;
-  font: 700 20px "Rubik-Medium", sans-serif;
+  font: 700 22px "Rubik-Medium", sans-serif;
   position: relative;
   width: 249.61px;
   height: 61px;
   margin-top: -16px;
   margin-left: 80px;
+  text-decoration: underline;
 }
 
 .compensation-paragraph {
-  color: #202020;
+  color:  #072886;
   text-align: left;
-  font: 400 17px "Rubik-Regular", sans-serif;
+  font: 500 17px "Rubik-Regular", sans-serif;
   position: relative;
-  width: 812.9px;
+  width: 977.9px;
   height: 75.1px;
-  margin-top: -66px;
-  margin-left: 267px;
+  margin-top: -33px;
+  margin-left: 79px;
 }
 .skills-and-qualification {
   color: #000000;
   text-align: left;
-  font: 700 20px "Rubik-Medium", sans-serif;
+  font: 700 22px "Rubik-Medium", sans-serif;
   position: relative;
   width: 303.61px;
   height: 61px;
   margin-top: -16px;
   margin-left: 80px;
+  text-decoration: underline;
 }
 
 .skills-and-qualification-paragraph {
-  color: #202020;
+  color:  #072886;
   text-align: left;
-  font: 400 17px "Rubik-Regular", sans-serif;
+  font: 500 17px "Rubik-Regular", sans-serif;
   position: relative;
-  width: 721.9px;
+  width: 977.9px;
   height: 75.1px;
-  margin-top: -66px;
-  margin-left: 361px;
+  margin-top: -33px;
+  margin-left: 80px;
 }
 
 .supervision-and-mentorship {
   color: #000000;
   text-align: left;
-  font: 700 20px "Rubik-Medium", sans-serif;
+  font: 700 22px "Rubik-Medium", sans-serif;
   position: relative;
-  width: 317.61px;
+  width: 353.61px;
   height: 61px;
   margin-top: -16px;
   margin-left: 80px;
+  text-decoration: underline;
 }
 
 .supervision-and-mentorship-paragraph {
-  color: #202020;
+  color:  #072886;
   text-align: left;
-  font: 400 17px "Rubik-Regular", sans-serif;
+  font: 500 17px "Rubik-Regular", sans-serif;
   position: relative;
-  width: 709.9px;
+  width: 982.9px;
   height: 75.1px;
-  margin-top: -66px;
-  margin-left: 397px;
+  margin-top: -33px;
+  margin-left: 80px;
 }
 
 .nda {
   color: #000000;
   text-align: left;
-  font: 700 20px "Rubik-Medium", sans-serif;
+  font: 700 22px "Rubik-Medium", sans-serif;
   position: relative;
-  width: 544.61px;
+  width: 607.61px;
   height: 61px;
   margin-top: -16px;
   margin-left: 80px;
+  text-decoration: underline;
 }
 
 .nda-paragraph {
-  color: #202020;
+  color: #072886;
   text-align: left;
-  font: 400 17px "Rubik-Regular", sans-serif;
+  font: 500 17px "Rubik-Regular", sans-serif;
   position: relative;
-  width: 472.9px;
+  width: 979.9px;
   height: 75.1px;
-  margin-top: -66px;
-  margin-left: 633px;
+  margin-top: -33px;
+  margin-left: 79px;
 }
 .performance-evaluation {
   color: #000000;
   text-align: left;
-  font: 700 20px "Rubik-Medium", sans-serif;
+  font: 700 22px "Rubik-Medium", sans-serif;
   position: relative;
   width: 544.61px;
   height: 61px;
-  margin-top: 50px;
+  margin-top: 20px;
   margin-left: 80px;
+  text-decoration: underline;
 }
 
 .performance-evaluation-paragraph {
-  color: #202020;
+  color:  #072886;
   text-align: left;
-  font: 400 17px "Rubik-Regular", sans-serif;
+  font: 500 17px "Rubik-Regular", sans-serif;
   position: relative;
-  width: 698.9px;
+  width: 956.9px;
   height: 75.1px;
-  margin-top: -66px;
-  margin-left: 369px;
+  margin-top: -33px;
+  margin-left: 80px;
 }
 
 .termination {
   color: #000000;
   text-align: left;
-  font: 700 20px "Rubik-Medium", sans-serif;
+  font: 700 22px "Rubik-Medium", sans-serif;
   position: relative;
   width: 544.61px;
   height: 61px;
-  margin-top: -30px;
+  margin-top: -34px;
   margin-left: 80px;
+  text-decoration: underline;
 }
 
 .termination-paragraph {
-  color: #202020;
+  color:  #072886;
   text-align: left;
-  font: 400 17px "Rubik-Regular", sans-serif;
+  font: 500 17px "Rubik-Regular", sans-serif;
   position: relative;
-  width: 830.9px;
+  width: 954.9px;
   height: 75.1px;
-  margin-top: -66px;
-  margin-left: 255px;
+  margin-top: -33px;
+  margin-left: 80px;
 }
 
 .code-of-conduct {
   color: #000000;
   text-align: left;
-  font: 700 20px "Rubik-Medium", sans-serif;
+  font: 700 22px "Rubik-Medium", sans-serif;
   position: relative;
   width: 544.61px;
   height: 61px;
-  margin-top: 15px;
+  margin-top: -17px;
   margin-left: 80px;
+  text-decoration: underline;
 }
 
 .code-of-conduct-paragraph {
-  color: #202020;
+  color:  #072886;
   text-align: left;
-  font: 400 17px "Rubik-Regular", sans-serif;
+  font: 500 17px "Rubik-Regular", sans-serif;
   position: relative;
-  width: 830.9px;
+  width: 953.9px;
   height: 75.1px;
-  margin-top: -66px;
-  margin-left: 303px;
+  margin-top: -33px;
+  margin-left: 82px;
 }
 .rectangle-3 {
   background: linear-gradient(90deg, rgba(105, 163, 239, 1) 0%, rgba(146, 191, 251, 1) 28%, rgba(92, 225, 230, 1) 100%);
   border-radius: 20px;
-  width: 1168px;
-  height: 810px;
+  height: 810px; 
   position: absolute;
   margin-left:-1px;
   margin-top: 80px;
+  width: 1168px;
 }
 .frontend{
-  color: #011339;
+  color: #072886;
   text-align: left;
   font: 700 30px "Inter-Bold", sans-serif;
   position: relative;
-  margin-left: 120px;
+  margin-left: 124px;
   margin-top: 50px;
 }
 .checkmark1{
   position:absolute;
-  margin-top: 24px;
+  margin-top: 23px;
   margin-left: 118px;
 }
 .points1{
   color: #29292a;
   text-align: left;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: relative;
-  margin-left: 147px;
+  margin-left: 155px;
   margin-top: 23px;
 }
 .checkmark2{
   position: absolute;
-  margin-top: 24px;
+  margin-top: 23px;
   margin-left: 118px;
 }
 .points2{
   color: #29292a;
   text-align: left;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: relative;
-  margin-left: 147px;
+  margin-left: 155px;
   margin-top: 23px;
 }
 .checkmark3{
   position: absolute;
-  margin-top: 24px;
+  margin-top: 23px;
   margin-left: 118px;
 }
 .points3{
   color: #29292a;
   text-align: left;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: relative;
-  margin-left: 147px;
+  margin-left: 155px;
   margin-top: 23px;
 }
 .checkmark4{
   position: absolute;
-  margin-top: 24px;
+  margin-top: 23px;
   margin-left: 118px;
 }
 .points4{
   color: #29292a;
   text-align: left;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: relative;
-  margin-left: 147px;
+  margin-left: 155px;
   margin-top: 23px;
 }
 .checkmark5{
   position: absolute;
-  margin-top: 24px;
+  margin-top: 23px;
   margin-left: 118px;
 }
 .points5{
   color: #29292a;
   text-align: left;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: relative;
-  margin-left: 147px;
+  margin-left: 155px;
   margin-top: 23px;
 }
 .checkmark6{
   position: absolute;
-  margin-top: 24px;
+  margin-top: 23px;
   margin-left: 118px;
 }
 .points6{
   color: #29292a;
   text-align: left;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: relative;
-  margin-left: 147px;
+  margin-left: 155px;
   margin-top: 23px;
 }
 .checkmark7{
   position: absolute;
-  margin-top: 24px;
+  margin-top: 23px;
   margin-left: 118px;
 }
 .points7{
   color: #29292a;
   text-align: left;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: relative;
-  margin-left: 147px;
+  margin-left: 155px;
   margin-top: 23px;
 }
 .checkmark8{
   position: absolute;
-  margin-top: 24px;
+  margin-top: 23px;
   margin-left: 118px;
 }
 .points8{
   color: #29292a;
   text-align: left;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: relative;
-  margin-left: 147px;
+  margin-left: 155px;
   margin-top: 23px;
 }
 .checkmark9{
   position: absolute;
-  margin-top: 24px;
+  margin-top: 23px;
   margin-left: 118px;
 }
 .points9{
   color: #29292a;
   text-align: left;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: relative;
-  margin-left: 147px;
+  margin-left: 155px;
   margin-top: 23px;
 }
 .checkmark10{
   position: absolute;
-  margin-top: 24px;
+  margin-top: 23px;
   margin-left: 118px;
 }
 .points10{
   color: #29292a;
   text-align: left;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: relative;
-  margin-left: 147px;
+  margin-left: 155px;
   margin-top: 23px;
 }
 .checkmark11{
   position: absolute;
-  margin-top: 24px;
+  margin-top: 23px;
   margin-left: 118px;
 }
 .points11{
   color: #29292a;
   text-align: left;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: relative;
-  margin-left: 147px;
+  margin-left: 155px;
   margin-top: 23px;
 }
 .checkmark12{
   position: absolute;
-  margin-top: 24px;
+  margin-top: 23px;
   margin-left: 118px;
 }
 .points12{
   color: #29292a;
   text-align: left;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: relative;
-  margin-left: 147px;
+  margin-left: 155px;
   margin-top: 23px;
 }
 .checkmark13{
   position: absolute;
-  margin-top: 24px;
+  margin-top: 23px;
   margin-left: 118px;
 }
 .points13{
   color: #29292a;
   text-align: left;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: relative;
-  margin-left: 147px;
+  margin-left: 155px;
   margin-top: 23px;
 }
 .backend{
-  color: #011339;
+  color: #072886;
   text-align: left;
   font: 700 30px "Inter-Bold", sans-serif;
   position: relative;
   margin-left: 830px;
-  margin-top: -640px;
+  margin-top: -584px;
 }
 .checkmark14{
   position: absolute;
   margin-top: 24px;
-  margin-left: 826px;
+  margin-left: 819px;
 }
 .points14{
   color: #29292a;
   text-align: right;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: absolute;
   margin-left: 860px;
   margin-top: 23px;
@@ -568,12 +580,12 @@
 .checkmark15{
   position: absolute;
   margin-top: 72px;
-  margin-left: 825px;
+  margin-left: 819px;
 }
 .points15{
   color: #29292a;
   text-align: right;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: absolute;
   margin-left: 859px;
   margin-top: 70px;
@@ -581,12 +593,12 @@
 .checkmark16{
   position: absolute;
   margin-top: 119px;
-  margin-left: 824px;
+  margin-left: 819px;
 }
 .points16{
   color: #29292a;
   text-align: right;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: absolute;
   margin-left: 858px;
   margin-top: 118px;
@@ -594,12 +606,12 @@
 .checkmark17{
   position: absolute;
   margin-top: 167px;
-  margin-left: 824px;
+  margin-left: 819px;
 }
 .points17{
   color: #29292a;
   text-align: right;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: absolute;
   margin-left: 857px;
   margin-top: 165px;
@@ -607,12 +619,12 @@
 .checkmark18{
   position: absolute;
   margin-top: 214px;
-  margin-left: 823px;
+  margin-left: 819px;
 }
 .points18{
   color: #29292a;
   text-align: right;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: absolute;
   margin-left: 857px;
   margin-top: 213px;
@@ -620,12 +632,12 @@
 .checkmark19{
   position: absolute;
   margin-top: 262px;
-  margin-left: 822px;
+  margin-left: 819px;
 }
 .points19{
   color: #29292a;
   text-align: right;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: absolute;
   margin-left: 854px;
   margin-top: 261px;
@@ -633,12 +645,12 @@
 .checkmark20{
   position: absolute;
   margin-top: 310px;
-  margin-left: 822px;
+  margin-left: 821px;
 }
 .points20{
   color: #29292a;
   text-align: right;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: absolute;
   margin-left: 856px;
   margin-top: 309px;
@@ -651,7 +663,7 @@
 .points21{
   color: #29292a;
   text-align: right;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 16px "Inter-Bold", sans-serif;
   position: absolute;
   margin-left: 856px;
   margin-top: 355px;
@@ -664,7 +676,7 @@
 .points22{
   color: #29292a;
   text-align: right;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: absolute;
   margin-left: 856px;
   margin-top: 402px;
@@ -677,7 +689,7 @@
 .points23{
   color: #29292a;
   text-align: right;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: absolute;
   margin-left: 856px;
   margin-top: 451px;
@@ -690,7 +702,7 @@
 .points24{
   color: #29292a;
   text-align: right;
-  font: 700 20px "Inter-Bold", sans-serif;
+  font: 700 18px "Inter-Bold", sans-serif;
   position: absolute;
   margin-left: 856px;
   margin-top: 499px;
@@ -703,6 +715,7 @@
   position: relative;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   margin-top: 930px;
+  border-radius: 50px;
 }
 
 .brocheure {
@@ -723,6 +736,7 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   margin-left: 666px;
   margin-top: -87px;
+  border-radius: 50px;
 }
 .syllabus {
   color: #ffffff;
@@ -737,7 +751,7 @@
   width: 1940px;
   height: 504px;
   position: relative;
-  margin-top:2220px;
+  margin-top:2485px;
   margin-left: 0px;
 }
 .rectangle-4 {
